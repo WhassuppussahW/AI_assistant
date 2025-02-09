@@ -12,7 +12,7 @@
 This project aims to build an **AI assistant optimized for low-resource environments**, specifically designed to run on a **Raspberry Pi** while interacting with a Windows machine. The assistant will support:
 
 ✅ **Voice Commands** – Execute system actions (adjust brightness, control volume, open applications, etc.).\
-✅ **Chat-based Interaction** – Understand and process text-based queries (currently using CamemBERT 1.3B for intent recognition).\
+✅ **Chat-based Interaction** – Understand and process text-based queries (currently using CamemBERT Base for intent recognition).\
 ✅ **System Control** – Perform tasks such as file searches, microphone activation, and power management.\
 ✅ **Efficient Performance** – Utilize minimal computational resources to ensure smooth operation on lightweight hardware.
 
@@ -65,7 +65,8 @@ As an AI enthusiast passionate about **efficiency and edge computing**, I wanted
 💻 **Languages**: Python\
 🛠 **Libraries**: `torch` (for AI processing), `speechrecognition` (for voice input), `pyaudio` (for audio handling), `subprocess` (for system commands), and more.\
 📡 **Communication**: USB serial connection between Raspberry Pi & Windows\
-🔊 **Speech Processing**: Offline models (planned)
+🔊 **Speech Processing**: Offline models (planned)\
+💻 **Development Environment**: Currently developed on a Virtual Machine running Linux, with plans to implement the bridge with Windows in a later phase.
 
 ---
 
@@ -73,7 +74,7 @@ As an AI enthusiast passionate about **efficiency and edge computing**, I wanted
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-assistant.git
+   git clone https://github.com/WhassuppussahW/ai-assistant.git
    cd ai-assistant
    ```
 2. Install dependencies:
